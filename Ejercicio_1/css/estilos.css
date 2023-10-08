@@ -1,0 +1,33 @@
+html {
+    border: 2px solid yellow;
+    /* solid sirve para establece un borde con profundidad «hacia fuera»
+    mas que todo es un tipo de vorde ya que, hay bordes punteados, con lineas, etc. */
+}
+
+body {
+    margin: 5px;
+    /* margin sirve para separar */
+    border: 2px solid blue;
+    /* border se utiliza para establecer el mismo grosor, estilo y/o anchura de todos los bordes de un elemento. */
+    padding: 10px;
+    /* padding sirve para rellenar */
+}
+
+img{
+    margin: 15px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    /* border-radius establece el redondeo de la esquina superior izquierda del elemento. */
+}
+
+p{
+    border: 2px solid red;
+    padding: 10px;
+    text-align: justify;
+}
+
+*{
+    border: 2px solid green;
+    /* El asterisco en CSS * es conocido como selector universal y alude a todos los elementos que
+     están contenidos dentro de otro. */
+}
